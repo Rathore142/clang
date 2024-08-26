@@ -12,7 +12,7 @@ int main()
     printf("Sat\n");
     printf("Sun\n");
 
-    printf("Enter any no from the menu -");
+    printf("Enter any no from the menu -\n");
     scanf("%d", &ch); // inputs data from user
 
     switch (ch)
@@ -27,10 +27,33 @@ int main()
         printf("Tuesday");
         break;
     }
-
+    case 3:
+    {
+        printf("wednesday");
+        break;
+    }
+    case 4:
+    {
+        printf("thrusday");
+        break;
+    }
+    case 5:
+    {
+        printf("thrusday\n");
+        break;
+    }
+    case 6:
+    {
+        printf("friday");
+        break;
+    }
+    case 7:
+    {
+        printf("saturday");
+        break;
+    }
     default:
         printf("Invalid");
     }
     return 0;
-    
 }
